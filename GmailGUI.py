@@ -15,9 +15,9 @@ def sendemail():
     REmail = E3.get()
     SUBj = E4.get()
     MSG = E5.get()
-    SMSG = '\r\n'.join(["TO = %s" %REmail,
-                        "FROM = %s" %SEmail,
-                        "SUBJECT = %s" %SUBj,
+    SMSG = '\r\n'.join(["TO : %s" %REmail,
+                        "FROM : %s" %SEmail,
+                        "SUBJECT : %s" %SUBj,
                         "",MSG])
     sender.sendmail(SEmail,REmail,SMSG)
     sender.quit()
