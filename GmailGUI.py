@@ -22,6 +22,11 @@ def sendemail():
     sender.sendmail(SEmail,REmail,SMSG)
     sender.quit()
     messagebox.showinfo("EMAIL REPORT","EMAIL SENT")
+    E1.delete(0,'end')
+    E2.delete(0,'end')
+    E3.delete(0,'end')
+    E4.delete(0,'end')
+    E5.delete(0,'end')
 
     
 main.geometry("500x300")
