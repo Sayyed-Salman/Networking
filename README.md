@@ -1,8 +1,7 @@
-# Networking
-Python networking with SMTP and urlib as a rookie 
+Gmail GUI 
+Graphics Interface for SMPT module,Send Emails Through Gmail From an external client.
+Before you use this application make sure to change some settings in you Gmail account,
+1) Login to your Gmail, Go to settings, Then "See All Settings", Then "Forwading and POP/IMAP", Then Enable IMAP access.
+2) Now go to "Manage your Google Account", Then go to "Security", Scroll down and find "Less secure app access", Now turn on Less secure app access.
+Now you can use any of my gmail GUI versions.
 
-Python Email Sender 
-Using SMTP and i made a GUI version of the same, they both works flawlessly.
-
-Python HTML Downloader
-Html downloader, it is written in python and can download any html code for inspecting and editng purposes.
