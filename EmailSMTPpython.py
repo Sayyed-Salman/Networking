@@ -21,9 +21,9 @@ which handles sending e-mail and routing between
 """
 MSG = input("""Enter Message: """)
 
-BODY = '\r\n'.join(['To = %s' %RECIEVER,
-                    'From = %s' %SENDER,
-                    'Subject = %s' %SUBJECT, 
+BODY = '\r\n'.join(['To : %s' %RECIEVER,
+                    'From : %s' %SENDER,
+                    'Subject : %s' %SUBJECT, 
                     '',MSG])
 
 
